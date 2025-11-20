@@ -1,0 +1,51 @@
+.reimagine-section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+  background: none;
+}
+
+.reimagine-content {
+  background: #111217;
+  color: white;
+  padding: 48px;
+  border-radius: 32px;
+
+  max-width: 1200px;
+  width: 85%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.re-left h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.re-left p {
+  color: #cfd3da;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.cta {
+  background: white;
+  color: black;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.re-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}

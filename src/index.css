@@ -1,0 +1,19 @@
+:root {
+  --max-width: 1200px;
+  --muted: #6b7280;
+}
+
+* { box-sizing: border-box; }
+
+html,body,#root { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main { max-width: var(--max-width); margin: 0 auto; }

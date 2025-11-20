@@ -1,0 +1,57 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 21 / 5;
+  min-height: 360px;
+  max-height: 540px;
+  overflow: hidden;
+}
+
+
+.hero-inner {
+  max-width: 1340px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero-bg {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  display: block;
+}
+
+.hero-card-container {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,
+      rgba(83, 41, 255, 0.32),
+      rgba(158, 74, 252, 0.28));
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.hero-card {
+  background: white;
+  padding: 32px;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
